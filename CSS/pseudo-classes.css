@@ -1,0 +1,22 @@
+.parent {
+   background-color: whitesmoke;
+}
+a:link {
+  color: orange;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: orange;
+}
+a:active {
+  color: skyblue;
+}
+div p:nth-child(4) {
+  color: red;
+}
+div :not(p) {
+  color: orange;
+  text-decoration: line-through;
+}
